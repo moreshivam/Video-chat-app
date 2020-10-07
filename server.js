@@ -39,4 +39,4 @@ io.on('connection', socket=>{
 
 
 
-server.listen(3030); // listening on server no need port listen
+server.listen(process.env.PORT|| 3030); // listening on server no need port listen
